@@ -122,7 +122,7 @@ nav .menu a {
 
 /* about section */
 #about {
-    padding: 125px;
+    padding: 130px;
 }
 
 #about .about-container {
@@ -172,7 +172,7 @@ nav .menu a {
     padding: 30px;
     max-width: 267px;
     border-radius: 5px;
-    box-shadow: 0 6px 30px 0 #00000004;
+    box-shadow:5px 5px 10px black;
 }
 
 .skil-card .img {
@@ -189,4 +189,51 @@ nav .menu a {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+/* resume section */
+#resume {
+    padding: 130px;
+}
+.resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.section-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+   
+}
+.resume-card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-card h4 {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.education hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Experience hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
