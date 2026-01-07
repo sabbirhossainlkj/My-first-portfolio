@@ -54,13 +54,17 @@
 
 }
 
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 /* main style */
 header {
-    /* background-color: ; */
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 
@@ -172,7 +176,7 @@ nav .menu a {
     padding: 30px;
     max-width: 267px;
     border-radius: 5px;
-    box-shadow:5px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
 }
 
 .skil-card .img {
@@ -185,15 +189,18 @@ nav .menu a {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .skil-card p {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
+
 /* resume section */
 #resume {
     padding: 130px;
 }
+
 .resume-container {
     width: 71%;
     max-width: 1140px;
@@ -201,39 +208,106 @@ nav .menu a {
     display: flex;
     gap: 24px;
 }
+
 .section-title {
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: bold;
     color: #474747;
 }
+
 .resume-card {
     max-width: 511px;
     margin-right: 47px;
-   
+
 }
+
 .resume-card h3 {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
     margin-bottom: 10px;
 }
+
 .resume-card h4 {
     font-size: 20px;
     font-weight: 600px;
     color: #757575;
     margin-bottom: 20px;
 }
+
 .resume-card p {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
+
 .education hr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .Experience hr {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* footer section */
+#footer {
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+
+.footer-container {
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    gap: 117px;
+}
+
+.social {
+    max-width: 562px;
+}
+
+.social h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.social p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.icons a {
+    margin-right: 24px;
+}
+
+.form h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.form input[type="text"] {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    color: #757575;
+}
+
+.form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    color: #757575;
 }
